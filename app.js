@@ -23,8 +23,9 @@ const qq = require("./routes/quizQuestion");
 const eq = require("./routes/evalQuiz");
 
 app.get("/", (req, res) => {
-  res.json({ users: "allUsers" });
+  res.json({ users: "allUsers................................" });
 });
+
 app.use("/api/v1", test);
 app.use("/api/v1", user);
 app.use("/api/v1", category);
